@@ -1,0 +1,16 @@
+name: quantum-lab
+channels:
+  - defaults
+dependencies:
+  - python>=3.8
+  - ipython
+  - ipykernel
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - sympy
+  - pip:
+    - qiskit[vizualization]
